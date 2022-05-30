@@ -24,3 +24,6 @@
   console.log(myReplace("This has a spellngi error", "spellngi", "spelling"));
   console.log(myReplace("His name is Tom", "Tom", "john"));
   console.log(myReplace("Let us get back to more Coding", "Coding", "algorithms"));
+
+
+  
