@@ -10,9 +10,7 @@ function truthCheck(collection, pre) {
 	  if (elem[pre])
 		i++;
 	}
-	if (i != collection.length)
-	  return false;
-	return true;
+	return i == collection.length;
   }
 
 truthCheck([{name: "Quincy", role: "Founder", isBot: false}, {name: "Naomi", role: "", isBot: false}, {name: "Camperbot", role: "Bot", isBot: true}], "isBot");
