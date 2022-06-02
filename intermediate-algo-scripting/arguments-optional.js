@@ -16,9 +16,7 @@ function addTogether() {
 	if (typeof(y) !== "number")
 	  return undefined;
 	return (x + y);
-  }
-
-
+}
 
 var sumTwoAnd = addTogether(2);
 console.log(sumTwoAnd(3));
